@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>الضحيه قمرالانبياء</title>
+        <STyle>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f5f5f5;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                background-size: cover;
+                background-blend-mode: overlay;
+                background-color: rgba(255, 255, 255, 0.8);
+                background-image: url(tayib.jpg);
+                
+            }
+            .header{
+                background-color: #8B0000;
+                color: white;
+                padding: 20px;
+                border-bottom: 5px solid #000;
+            }
+            .header h1 {
+                margin: 0;
+                font-size: 2.5em;
+                text-shadow: 2px 2px 4px #000;
+            }
+            .defendant img {
+                width: 200px;
+                border: 5px solid #8B0000;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                border: 10px dashed #8B0000;
+            }
+            .charges{
+                background-color: #f9f9f9;
+                margin: 20px;
+                padding: 10px;
+                border-left: 5px solid #8B0000;
+                text-align: right;
+            }
+            .verdict{
+                background-color: #000;
+                color: #fff;
+                padding: 10px;
+                font-size: 1.5em;
+                margin: 20px;
+                border-radius: 5px;
+                animation: blink 1s infinite;
+            }
+            @keyframes blink{
+                0% {opacity: 1;}
+                50%{opacity: 0.5;}
+                100%{opacity: 1;}
+            }
+            .button {
+                background-color: #8B0000;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                display: inline-block;
+                margin: 10px;
+                transition: transform 0.3s;
+            }
+            .button:hover{
+                transform: scale(1.1);
+                background-color: #a52a2a;
+            }
+            .footer{
+                margin: 30px;
+                padding: 10px;
+                background-color: #333;
+                color: white;
+            }
+
+        </STyle>
+    </head>
+    <body>
+        <div class="header">
+            <h1>محكمة  اللابتواب " ربنا يسمحك"</h1>
+            <p>عليك دينك لابتوب بي الاقساط ماقدر ليه</p>
+        </div>
+        <div class="defendant">
+            <h2>المتهم هذا الرجال</h2>
+            <img src="tayib.jpg" id="tayib" alt="صورة الاب المذنب">
+            <p>المذنب يتهم نفسه بجريمة حرمان ابنه من اللابتواب</p>
+        </div>
+        <div class="charges">
+            <h3>لائحة الاتهامات :</h3>
+            <ul>
+                <li>رفض شراء لابنه المسكين لابتوب يساعده يحقق احلامه و يخترع فيزا سودانية للفضاء</li>
+                <li>يستخدم حجة "الغلاء" بينما يشتري لنفسه اشياء غير ضرورية </li>
+            </ul>
+        </div>
+        <div class="verdict">الحكم النهائي : " مذنب ويستحق العقاب"</div>
+        <div>
+            <h3>طريق اصلاح الخطاء </h3>
+            <a href="#" class="button">اشتر لابتوب الان</a>
+            <a href="#" class="button">اعترف بالذنب امام ناس البيت</a>
+        </div>
+        <div class="footer">محكمةالعدل التكنولوجي - تنفيذ الحكم خلال 24 ساعة 2025/</div>
+    </body>
+
+</html>
